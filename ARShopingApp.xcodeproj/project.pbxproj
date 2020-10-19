@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF92A6CB253DACFF005DCCBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6CA253DACFF005DCCBB /* AppDelegate.swift */; };
+		DF92A6CD253DACFF005DCCBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6CC253DACFF005DCCBB /* SceneDelegate.swift */; };
+		DF92A6CF253DACFF005DCCBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6CE253DACFF005DCCBB /* ViewController.swift */; };
+		DF92A6D2253DACFF005DCCBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF92A6D0253DACFF005DCCBB /* Main.storyboard */; };
+		DF92A6D5253DACFF005DCCBB /* ARShopingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6D3253DACFF005DCCBB /* ARShopingApp.xcdatamodeld */; };
+		DF92A6D7253DAD01005DCCBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF92A6D6253DAD01005DCCBB /* Assets.xcassets */; };
+		DF92A6DA253DAD01005DCCBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF92A6D8253DAD01005DCCBB /* LaunchScreen.storyboard */; };
+		DF92A6E5253DAD01005DCCBB /* ARShopingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6E4253DAD01005DCCBB /* ARShopingAppTests.swift */; };
+		DF92A6F0253DAD01005DCCBB /* ARShopingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF92A6EF253DAD01005DCCBB /* ARShopingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF92A6E1253DAD01005DCCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF92A6BF253DACFF005DCCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF92A6C6253DACFF005DCCBB;
+			remoteInfo = ARShopingApp;
+		};
+		DF92A6EC253DAD01005DCCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF92A6BF253DACFF005DCCBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF92A6C6253DACFF005DCCBB;
+			remoteInfo = ARShopingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF92A6C7253DACFF005DCCBB /* ARShopingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARShopingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A6CA253DACFF005DCCBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF92A6CC253DACFF005DCCBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF92A6CE253DACFF005DCCBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF92A6D1253DACFF005DCCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF92A6D4253DACFF005DCCBB /* ARShopingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ARShopingApp.xcdatamodel; sourceTree = "<group>"; };
+		DF92A6D6253DAD01005DCCBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF92A6D9253DAD01005DCCBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF92A6DB253DAD01005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF92A6E0253DAD01005DCCBB /* ARShopingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARShopingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A6E4253DAD01005DCCBB /* ARShopingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShopingAppTests.swift; sourceTree = "<group>"; };
+		DF92A6E6253DAD01005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF92A6EB253DAD01005DCCBB /* ARShopingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARShopingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF92A6EF253DAD01005DCCBB /* ARShopingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARShopingAppUITests.swift; sourceTree = "<group>"; };
+		DF92A6F1253DAD01005DCCBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF92A6C4253DACFF005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6DD253DAD01005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6E8253DAD01005DCCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF92A6BE253DACFF005DCCBB = {
+			isa = PBXGroup;
+			children = (
+				DF92A6C9253DACFF005DCCBB /* ARShopingApp */,
+				DF92A6E3253DAD01005DCCBB /* ARShopingAppTests */,
+				DF92A6EE253DAD01005DCCBB /* ARShopingAppUITests */,
+				DF92A6C8253DACFF005DCCBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF92A6C8253DACFF005DCCBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A6C7253DACFF005DCCBB /* ARShopingApp.app */,
+				DF92A6E0253DAD01005DCCBB /* ARShopingAppTests.xctest */,
+				DF92A6EB253DAD01005DCCBB /* ARShopingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF92A6C9253DACFF005DCCBB /* ARShopingApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A6CA253DACFF005DCCBB /* AppDelegate.swift */,
+				DF92A6CC253DACFF005DCCBB /* SceneDelegate.swift */,
+				DF92A6CE253DACFF005DCCBB /* ViewController.swift */,
+				DF92A6D0253DACFF005DCCBB /* Main.storyboard */,
+				DF92A6D6253DAD01005DCCBB /* Assets.xcassets */,
+				DF92A6D8253DAD01005DCCBB /* LaunchScreen.storyboard */,
+				DF92A6DB253DAD01005DCCBB /* Info.plist */,
+				DF92A6D3253DACFF005DCCBB /* ARShopingApp.xcdatamodeld */,
+			);
+			path = ARShopingApp;
+			sourceTree = "<group>";
+		};
+		DF92A6E3253DAD01005DCCBB /* ARShopingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A6E4253DAD01005DCCBB /* ARShopingAppTests.swift */,
+				DF92A6E6253DAD01005DCCBB /* Info.plist */,
+			);
+			path = ARShopingAppTests;
+			sourceTree = "<group>";
+		};
+		DF92A6EE253DAD01005DCCBB /* ARShopingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF92A6EF253DAD01005DCCBB /* ARShopingAppUITests.swift */,
+				DF92A6F1253DAD01005DCCBB /* Info.plist */,
+			);
+			path = ARShopingAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF92A6C6253DACFF005DCCBB /* ARShopingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A6F4253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingApp" */;
+			buildPhases = (
+				DF92A6C3253DACFF005DCCBB /* Sources */,
+				DF92A6C4253DACFF005DCCBB /* Frameworks */,
+				DF92A6C5253DACFF005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARShopingApp;
+			productName = ARShopingApp;
+			productReference = DF92A6C7253DACFF005DCCBB /* ARShopingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF92A6DF253DAD01005DCCBB /* ARShopingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A6F7253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingAppTests" */;
+			buildPhases = (
+				DF92A6DC253DAD01005DCCBB /* Sources */,
+				DF92A6DD253DAD01005DCCBB /* Frameworks */,
+				DF92A6DE253DAD01005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF92A6E2253DAD01005DCCBB /* PBXTargetDependency */,
+			);
+			name = ARShopingAppTests;
+			productName = ARShopingAppTests;
+			productReference = DF92A6E0253DAD01005DCCBB /* ARShopingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF92A6EA253DAD01005DCCBB /* ARShopingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF92A6FA253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingAppUITests" */;
+			buildPhases = (
+				DF92A6E7253DAD01005DCCBB /* Sources */,
+				DF92A6E8253DAD01005DCCBB /* Frameworks */,
+				DF92A6E9253DAD01005DCCBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF92A6ED253DAD01005DCCBB /* PBXTargetDependency */,
+			);
+			name = ARShopingAppUITests;
+			productName = ARShopingAppUITests;
+			productReference = DF92A6EB253DAD01005DCCBB /* ARShopingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF92A6BF253DACFF005DCCBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					DF92A6C6253DACFF005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					DF92A6DF253DAD01005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DF92A6C6253DACFF005DCCBB;
+					};
+					DF92A6EA253DAD01005DCCBB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = DF92A6C6253DACFF005DCCBB;
+					};
+				};
+			};
+			buildConfigurationList = DF92A6C2253DACFF005DCCBB /* Build configuration list for PBXProject "ARShopingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF92A6BE253DACFF005DCCBB;
+			productRefGroup = DF92A6C8253DACFF005DCCBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF92A6C6253DACFF005DCCBB /* ARShopingApp */,
+				DF92A6DF253DAD01005DCCBB /* ARShopingAppTests */,
+				DF92A6EA253DAD01005DCCBB /* ARShopingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF92A6C5253DACFF005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A6DA253DAD01005DCCBB /* LaunchScreen.storyboard in Resources */,
+				DF92A6D7253DAD01005DCCBB /* Assets.xcassets in Resources */,
+				DF92A6D2253DACFF005DCCBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6DE253DAD01005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6E9253DAD01005DCCBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF92A6C3253DACFF005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A6CF253DACFF005DCCBB /* ViewController.swift in Sources */,
+				DF92A6D5253DACFF005DCCBB /* ARShopingApp.xcdatamodeld in Sources */,
+				DF92A6CB253DACFF005DCCBB /* AppDelegate.swift in Sources */,
+				DF92A6CD253DACFF005DCCBB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6DC253DAD01005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A6E5253DAD01005DCCBB /* ARShopingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF92A6E7253DAD01005DCCBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF92A6F0253DAD01005DCCBB /* ARShopingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF92A6E2253DAD01005DCCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF92A6C6253DACFF005DCCBB /* ARShopingApp */;
+			targetProxy = DF92A6E1253DAD01005DCCBB /* PBXContainerItemProxy */;
+		};
+		DF92A6ED253DAD01005DCCBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF92A6C6253DACFF005DCCBB /* ARShopingApp */;
+			targetProxy = DF92A6EC253DAD01005DCCBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF92A6D0253DACFF005DCCBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF92A6D1253DACFF005DCCBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF92A6D8253DAD01005DCCBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF92A6D9253DAD01005DCCBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF92A6F2253DAD01005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF92A6F3253DAD01005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF92A6F5253DAD01005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF92A6F6253DAD01005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF92A6F8253DAD01005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARShopingApp.app/ARShopingApp";
+			};
+			name = Debug;
+		};
+		DF92A6F9253DAD01005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARShopingApp.app/ARShopingApp";
+			};
+			name = Release;
+		};
+		DF92A6FB253DAD01005DCCBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARShopingApp;
+			};
+			name = Debug;
+		};
+		DF92A6FC253DAD01005DCCBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CDS4RQQHP;
+				INFOPLIST_FILE = ARShopingAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aplaice.ARShopingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARShopingApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF92A6C2253DACFF005DCCBB /* Build configuration list for PBXProject "ARShopingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A6F2253DAD01005DCCBB /* Debug */,
+				DF92A6F3253DAD01005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A6F4253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A6F5253DAD01005DCCBB /* Debug */,
+				DF92A6F6253DAD01005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A6F7253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A6F8253DAD01005DCCBB /* Debug */,
+				DF92A6F9253DAD01005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF92A6FA253DAD01005DCCBB /* Build configuration list for PBXNativeTarget "ARShopingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF92A6FB253DAD01005DCCBB /* Debug */,
+				DF92A6FC253DAD01005DCCBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF92A6D3253DACFF005DCCBB /* ARShopingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF92A6D4253DACFF005DCCBB /* ARShopingApp.xcdatamodel */,
+			);
+			currentVersion = DF92A6D4253DACFF005DCCBB /* ARShopingApp.xcdatamodel */;
+			path = ARShopingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF92A6BF253DACFF005DCCBB /* Project object */;
+}
